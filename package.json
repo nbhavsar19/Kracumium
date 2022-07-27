@@ -1,0 +1,22 @@
+{
+  "name": "kracumium",
+  "version": "1.0.0",
+  "description": "Kracumium for Mobile automation using Cucumber and Appium",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "/node_modules/.bin/cucumber-js ./features/AwesomeApp.feature -r ./steps/AwesomeApp.js --format json:./reports/cucumber-json-report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.0",
+    "appium-uiautomator2-driver": "^2.4.5",
+    "assert": "^2.0.0",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "selenium-webdriver": "^4.3.1",
+    "wd": "^1.14.0",
+    "webdriverio": "^7.20.7"
+  }
+}

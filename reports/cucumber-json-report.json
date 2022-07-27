@@ -1,0 +1,304 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-awesomeapp;validate-the-setting",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validate the Setting",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6561821999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "App is launched",
+            "match": {
+              "location": "steps\\AwesomeApp.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1332060199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Click the Settings tab",
+            "match": {
+              "location": "steps\\AwesomeApp.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431777300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Check Settings are loaded",
+            "match": {
+              "location": "steps\\AwesomeApp.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 926420700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 699989400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-awesomeapp;validate-the-dashboard",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate the Dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6659157000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "App is launched",
+            "match": {
+              "location": "steps\\AwesomeApp.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1317244499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click the Dashboard tab",
+            "match": {
+              "location": "steps\\AwesomeApp.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365092599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Check Dashboard is loaded",
+            "match": {
+              "location": "steps\\AwesomeApp.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3712723100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 877030799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-awesomeapp;validate-the-swipe",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate the Swipe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6446549100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "App is launched",
+            "match": {
+              "location": "steps\\AwesomeApp.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1907081700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Swipe to the right of the screen",
+            "match": {
+              "location": "steps\\AwesomeApp.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2751669499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Check Side Menu with button is appeared",
+            "match": {
+              "location": "steps\\AwesomeApp.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2921145999.9999995
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "click on button",
+            "match": {
+              "location": "steps\\AwesomeApp.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181521399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "check Alert is appeared",
+            "match": {
+              "location": "steps\\AwesomeApp.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4644197399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 673503000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-awesomeapp;validate-the-valid-failure",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Validate the valid failure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6439330899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "App is launched",
+            "match": {
+              "location": "steps\\AwesomeApp.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2042693099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Click the Settings tab",
+            "match": {
+              "location": "steps\\AwesomeApp.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555794700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Check Dashboard is loaded",
+            "match": {
+              "location": "steps\\AwesomeApp.js:100"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5001049199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Dev\\Kracumium\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597035199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-awesomeapp",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test AwesomeApp",
+    "tags": [],
+    "uri": "features\\AwesomeApp.feature"
+  }
+]
